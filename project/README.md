@@ -84,7 +84,7 @@ MONGODB_URI=mongodb://localhost:27017/career_fair
 
 Для MongoDB Atlas:
 ```env
-MONGODB_URI=mongodb+srv://<user>:<pass>@cluster0.xxx.mongodb.net/career_fair
+MONGODB_URI=mongodb+srv://jandos:jandos05@careerfair.ktfvcal.mongodb.net/?retryWrites=true&w=majority&appName=CareerFair
 ```
 
 ---
