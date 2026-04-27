@@ -12,7 +12,7 @@ const seedDatabase = require('./models/seed');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/career_fair';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://jandos:jandos05@careerfair.ktfvcal.mongodb.net/?retryWrites=true&w=majority&appName=CareerFair';
 
 // Middleware
 app.use(cors());
