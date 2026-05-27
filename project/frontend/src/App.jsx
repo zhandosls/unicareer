@@ -12,6 +12,7 @@ import Notifications from './pages/Notifications';
 import EmployerForm from './pages/EmployerForm';
 import AdminDashboard from './pages/AdminDashboard';
 import AuthPage from './pages/AuthPage';
+import StudentForm from './pages/StudentForm';
 
 function NavBar() {
   const { user, isAuth, logout } = useAuth();
@@ -81,6 +82,7 @@ function AppInner() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/employer" element={<EmployerForm />} />
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/rsvp" element={<StudentForm />} />
         </Routes>
       </main>
     </>
