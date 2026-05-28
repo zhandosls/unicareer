@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-12-08" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="ru_RU">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd15" name="Заметки" width="20" order="-1"/>
+        <field id="tpd3" name="Название" width="200" order="0"/>
+        <field id="tpd4" name="Дата начала" width="75" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="210" order="0"/>
+        <field id="1" name="Стандартная роль" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="1639c08a8ea54a0487f71e4f63ff9047" name="Сбор требований" meeting="false" start="2026-02-02" duration="2" complete="0" expand="true"/>
+        <task id="2" uid="e848142f7a1a4925a1d9eeb7fa7adb8e" name="Анализ аналогов" meeting="false" start="2026-02-04" duration="3" complete="0" expand="false"/>
+        <task id="3" uid="2c1b056497ca4c7d800eb0b89cb4df5a" name="Проектирование БД" meeting="false" start="2026-02-09" duration="3" complete="0" expand="true"/>
+        <task id="4" uid="1bda22fd024a4101845c8dad59266b3f" name="Проектирование архитектуры" meeting="false" start="2026-02-12" duration="2" complete="0" expand="true"/>
+        <task id="5" uid="a7657b4e8e704e59b5a056a86ad9af57" name="Разработка API (routes)" meeting="false" start="2026-04-15" duration="6" complete="0" expand="true"/>
+        <task id="6" uid="94be079b958142f4a157271eb5a880d1" name="Разработка моделей (MongoDB)" meeting="false" start="2026-02-23" duration="5" complete="0" expand="true"/>
+        <task id="7" uid="98dc9adca5524d788ee16b5593c0b1d3" name="Разработка авторизации (JWT)" meeting="false" start="2026-03-02" duration="4" complete="0" expand="true"/>
+        <task id="8" uid="554eb584297e4250822071bb450dde6f" name="Разработка главной страницы" meeting="false" start="2026-03-06" duration="3" complete="0" expand="true"/>
+        <task id="9" uid="d8cb502fac524cc780910f4a848593e5" name="Разработка страницы вакансий" meeting="false" start="2026-03-10" duration="3" complete="0" expand="true"/>
+        <task id="10" uid="9e8eb3a09d5847b8b0d49c9d3f093eb9" name="Разработка расписания" meeting="false" start="2026-03-16" duration="3" complete="0" expand="true"/>
+        <task id="11" uid="55f923aa63794232b39faa227506e7a1" name="Разработка профиля" meeting="false" start="2026-03-18" duration="3" complete="0" expand="true"/>
+        <task id="12" uid="ff2eda04b8ce414a8a263ac637ba8f2a" name="Разработка админ панели" meeting="false" start="2026-03-23" duration="3" complete="0" expand="true"/>
+        <task id="13" uid="647978c1a7ef43329087d552f52bd7c7" name="Интеграция фронт + бэк" meeting="false" start="2026-03-25" duration="5" complete="0" expand="true"/>
+        <task id="14" uid="4f39e7191ff1406bbd4c4abf5aea6f7d" name="Юнит тестирование" meeting="false" start="2026-04-01" duration="4" complete="0" expand="true"/>
+        <task id="15" uid="fd090d93bd894f1e96b710c52d2f9129" name="Интеграционное тестирование" meeting="false" start="2026-04-06" duration="5" complete="0" expand="true"/>
+        <task id="16" uid="c230592155d44a5f9d454a1b2d89d48c" name="Исправление багов" meeting="false" start="2026-04-13" duration="3" complete="0" expand="true"/>
+        <task id="17" uid="ddd27445ee3d4537ba28b6866c20b7de" name="Деплой бэкенда на Render" meeting="false" start="2026-04-14" duration="2" complete="0" expand="true"/>
+        <task id="18" uid="b26027c441ce480c95427e744c0fa012" name="Деплой фронтенда" meeting="false" start="2026-04-16" duration="2" complete="0" expand="true"/>
+        <task id="19" uid="ab01ae9b499b4772ab590f82b61ef22f" name="Написание документации" meeting="false" start="2026-04-20" duration="2" complete="0" expand="true"/>
+        <task id="20" uid="8af334f9d8494fcea285c921fe2ede64" name="Финальная сдача" meeting="false" start="2026-03-23" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
